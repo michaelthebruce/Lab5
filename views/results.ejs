@@ -12,7 +12,7 @@
             <% imageUrlArray.forEach(function(imageUrl, i){ %>
                 <%- (i%3 ==0)?'<br>':'' %>
                 <img src='<%=imageUrl %>' width='200' height='200'/>
-                <img src='img/favorite.png' width='20'/>
+                <img class="favoriteIcon" src='img/favorite.png' width='20'/>
             <% });%>
         </main>
 <%- include('partials/footer.ejs') %>
